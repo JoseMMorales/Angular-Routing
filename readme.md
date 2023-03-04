@@ -1,8 +1,10 @@
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)![RxJS](https://img.shields.io/badge/rxjs-%23B7178C.svg?style=for-the-badge&logo=reactivex&logoColor=white)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
 ## Description of this project
 
-As far as we know in Angular Routing there is more than moving the user between multiple views of an application. In this repo, we will discover further about sophisticated routing features to face real-world situations when building your applications. Overall, we will discover how defining multiple routes and pass data to routes, preloading data, and grouping routes, how to guard those routes, how to use multiple router-outlet, and improve performance by asynchronously loading.
+As far as we know in Angular Routing there is more than moving the user between multiple views of an application. In this repo, we will discover further about sophisticated routing features to face real-world situations when building your applications. Overall, we will discover how defining multiple routes and passing data to routes, preloading data, and grouping routes, how to guard those routes, how to use multiple router-outlet, and improving performance by asynchronously loading.
 
-## Project Routes Tree...
+## Routes Tree...
 
 <div align="center">
 
@@ -24,7 +26,7 @@ Provides access to information about a route associated with a component that is
 
 ## Optional Parameters in a route
 
-These Parameter are used when they are optional and we need to pass complex and multiple parameters.
+These are used when they are optional and we need to pass complex and multiple parameters.
 
 <div align="center">
   <img width="599" alt="Optional Parameters" src="https://user-images.githubusercontent.com/43299285/222710604-d5d17703-e344-442f-b5ec-83bbffde810e.PNG">
@@ -33,7 +35,7 @@ These Parameter are used when they are optional and we need to pass complex and 
 
 ## Query Parameters in a route
 
-We can pass optional parameters like page number, sorting & filter criteria to the component. (Ex: User go back to a previous page where has filtered elements in a list)
+We can pass optional parameters like page number, sorting & filter criteria to the component. (Ex: User goes back to a previous page where has filtered elements in a list)
 
 <div align="center">
   <img width="599" alt="Query Parameters" src="https://user-images.githubusercontent.com/43299285/222711082-09853654-efa5-4327-b01d-1709e54b3819.PNG">
@@ -76,7 +78,7 @@ As Angular is a component-based framework this feature is very useful to identif
 
 ## Grouping Routes
 
-When parent component is splitting the tree route in different components, we can group all of them by simplifying the structure in your routing module.
+When a parent component is splitting the tree route in different components, we can group all of them by simplifying the structure in your routing module.
 
 <div align="center">
   <img width="329" alt="Grouping routes" src="https://user-images.githubusercontent.com/43299285/222714813-7b5ddfd4-49a9-4a90-b68b-d3d8dbbff8e5.PNG">
@@ -84,7 +86,7 @@ When parent component is splitting the tree route in different components, we ca
 
 ## Active CLASS to anchor
 
-Adding class to style anchors coming from same parent component
+Adding class to style anchors coming from the same parent component
 
 <div align="center">
   <img width="358" alt="active" src="https://user-images.githubusercontent.com/43299285/222717385-7aab9d79-3dea-4ae7-9844-52d339156824.PNG">
@@ -132,7 +134,7 @@ Rendering different components at same time under parent outer-outlet if the App
 
 - <b>canActivate:</b> Guard navigation to a route, commonly used to limit route access to specific usersand ensure prerequisites are met.
 
-- <b>canActivateCHild:</b> Guard navigation to a child route, commonly used to meet prerequisites before accessing to a child route.
+- <b>canActivateChild:</b> Guard navigation to a child route, commonly used to meet prerequisites before accessing to a child route.
 
 - <b>canDeactivate:</b> Guard navigation away from a route, commonly used to let the user kow if sure to move with navigation(pop up is usually shown).
 
