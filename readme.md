@@ -14,7 +14,7 @@ As far as we know in Angular Routing there is more than moving the user between 
 
 ## Slide breakdown by feature...
 
-## [Activate Routes](https://angular.io/api/router/ActivatedRoute)
+## [Activated Routes](https://angular.io/api/router/ActivatedRoute)
 
 Provides access to information about a route associated with a component that is loaded in an outlet
 
@@ -22,6 +22,14 @@ Provides access to information about a route associated with a component that is
   <img width="599" alt="Activated Routes" src="https://user-images.githubusercontent.com/43299285/222709612-ca1eccae-e24a-47dd-b872-ca4059ec1d03.PNG">
   <img width="599" alt="Snapshot" src="https://user-images.githubusercontent.com/43299285/222709693-cc88056d-7719-4b53-9997-af51ddfbf246.PNG">
   <img width="599" alt="Snapshot" src="https://user-images.githubusercontent.com/43299285/222709742-df791d6e-7bda-4c67-af0d-c4992b1a9055.png">
+</div>
+
+## [RouterLinkActive and routerLinkActiveOptions](https://angular.io/api/router/RouterLinkActive)
+
+Tracks whether the linked route of an element is currently active, and allows you to specify one or more CSS classes to add to the element when the linked route is active.
+
+<div align="center">
+<img width="599" alt="1" src="https://user-images.githubusercontent.com/43299285/223719292-aef88973-1d15-4564-a97a-206316523ed5.PNG">
 </div>
 
 ## Optional Parameters in a route
@@ -81,7 +89,7 @@ As Angular is a component-based framework this feature is very useful to identif
 When a parent component is splitting the tree route in different components, we can group all of them by simplifying the structure in your routing module.
 
 <div align="center">
-  <img width="329" alt="Grouping routes" src="https://user-images.githubusercontent.com/43299285/222714813-7b5ddfd4-49a9-4a90-b68b-d3d8dbbff8e5.PNG">
+  <img width="529" alt="Grouping routes" src="https://user-images.githubusercontent.com/43299285/222714813-7b5ddfd4-49a9-4a90-b68b-d3d8dbbff8e5.PNG">
 </div>
 
 ## Active CLASS to anchor
@@ -89,7 +97,7 @@ When a parent component is splitting the tree route in different components, we 
 Adding class to style anchors coming from the same parent component
 
 <div align="center">
-  <img width="358" alt="active" src="https://user-images.githubusercontent.com/43299285/222717385-7aab9d79-3dea-4ae7-9844-52d339156824.PNG">
+  <img width="558" alt="active" src="https://user-images.githubusercontent.com/43299285/222717385-7aab9d79-3dea-4ae7-9844-52d339156824.PNG">
 </div>
 
 ## [Routing Events](https://angular.io/api/router/RouterEvent)
